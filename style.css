@@ -1,3 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
+  background: rgb(80, 80, 180);
+  padding: 20px;
+  font-family: sans-serif;
+}
+.wheather-section {
+  background: rgba(129, 133, 167, 0.7);
+  padding: 3% 25% 10% 25%;
+}
+.weather-section-title {
+  color: #fff;
+  margin: 20px 0;
+}
+.weather-list {
+  padding-left: 0;
+  font-size: 0;
+  background: rgb(50, 50, 200);
+}
+
+.weather-list:hover .weather-list-item {
+  opacity: 0.4;
+}
+.weather-list .weather-list-item:hover {
+  opacity: 1;
+  color: #fff;
+}
+.weather-list-item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 17px;
+  text-align: center;
+  color: #fcf;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.item-title {
+  margin: 10px 0;
+}
+.item-quarter {
+  width: 25%;
+  background: blueviolet;
+}
+.item-half {
+  width: 50%;
+  background: #469a23;
+}
+.item-full {
+  width: 100%;
   background: grey;
+}
+.weather-list li:nth-child(1) {
+  background: blue;
+}
+.weather-list li:nth-child(3) {
+  background: red;
+}
+.weather-list li:nth-child(5) {
+  background: #b5b544;
 }
